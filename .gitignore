@@ -4,8 +4,8 @@
 !.gitconfig
 
 !.bash_profile
-
 !.alacritty.toml
+!.vimrc
 
 !*/
 /.ansible/
@@ -57,4 +57,5 @@
 !/.config/lazygit/**/*.*
 !/.config/nvim/**/*.*
 !/.config/lvim/**/*.*
+!/.config/k9s/**/*.*
 

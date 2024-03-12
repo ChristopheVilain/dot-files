@@ -66,6 +66,10 @@ if [[ -f ~/.bashrc ]]; then
   source ~/.bashrc
 fi
 
+if [[ -s "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]]; then
+  source "$(brew --prefix)/etc/profile.d/bash_completion"
+fi
+
 # [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
 
 # The next line updates PATH for the Google Cloud SDK.

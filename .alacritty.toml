@@ -4,7 +4,7 @@
 normal = { family="MartianMono Nerd Font", style="Regular" }
 
 [shell]
-program = "/bin/bash"
+program = "/opt/homebrew/bin/bash"
 args = [
   "--login"
 ]
