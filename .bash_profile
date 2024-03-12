@@ -14,6 +14,8 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 
+export XDG_CONFIG_HOME="${HOME}/.config"
+
 
 focksmash() {
   local context=$(kubectl config current-context | ggrep -P "^gke_[\w\d\-]+$")
