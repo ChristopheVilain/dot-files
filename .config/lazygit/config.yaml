@@ -1,0 +1,12 @@
+customCommands:
+  - key: "L"
+    prompts:
+      - type: "input"
+        title: "Commit"
+        initialValue: ""
+        key: "CommitMsg"
+    command: echo "git commit -m {{.Form.CommitMsg}} --no-verify"
+    context: "files"
+    loadingText: "Commit..."
+    subprocess: true
+    showOutput: true
