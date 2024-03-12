@@ -1,13 +1,20 @@
+# Ignore all files and directories
 /*
 
+# Negative git files
 !.gitignore
 !.gitconfig
 
+# Negative profile, single file configs
 !.bash_profile
 !.alacritty.toml
 !.vimrc
+!.tmux.conf
 
+# Negative subdirs
 !*/
+
+# MacOS $HOME mess
 /.ansible/
 /.cache/
 /.cookiecutter_replay/
@@ -47,6 +54,7 @@
 /rancher-postgres-volume/
 /work/
 
+# Unwanted from XDG
 /.config/gcloud
 /.config/htop
 /.config/iterm2
@@ -54,8 +62,17 @@
 /.config/fish
 /.config/gtk-2.0
 
+# Lazygit - exclude state file
 !/.config/lazygit/**/*.*
+/.config/lazygit/state.yml
+
+# Neovim
 !/.config/nvim/**/*.*
+
+# LunarVim
 !/.config/lvim/**/*.*
+
+# K9S - exclude cluster-specific
 !/.config/k9s/**/*.*
+/.config/k9s/clusters/**/*.*
 
