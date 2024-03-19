@@ -74,9 +74,9 @@ k9s:
   # Global memory/cpu thresholds. When set will alert when thresholds are met.
   thresholds:
     cpu:
-      critical: 90
-      warn: 70
+      critical: 75
+      warn: 40
     memory:
       critical: 90
-      warn: 70
+      warn: 85
 

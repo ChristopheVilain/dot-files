@@ -71,6 +71,9 @@
 
 # LunarVim
 !/.config/lvim/**/*.*
+/.config/lvim/lazy-lock.json
+/.config/lvim/telescope_history
+/.config/lvim/mason/
 
 # K9S - exclude cluster-specific
 !/.config/k9s/**/*.*

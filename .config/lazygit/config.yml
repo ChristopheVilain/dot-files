@@ -1,0 +1,27 @@
+gui:
+  theme:
+    lightTheme: true
+    activeBorderColor:
+      - black
+      - bold
+    inactiveBorderColor:
+      - black
+    selectedLineBgColor:
+      - default
+
+customCommands:
+  - key: "l"
+    prompts:
+      - type: "input"
+        title: "Commit Message"
+        initialValue: ""
+        key: "CommitMsg"
+    command: git commit -m "{{.Form.CommitMsg}}" --no-verify
+    context: "files"
+
+  - key: "l"
+    command: git push origin "{{.SelectedLocalBranch.Name}}" --no-verify
+    context: "localBranches"
+    loadingText: "Pushing to {{.SelectedLocalBranch.Name}}"
+
+

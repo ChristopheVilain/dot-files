@@ -3,8 +3,17 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
-lvim.colorscheme = "oxocarbon"
-lvim.opt.background = "light"
-lvim.plugins = {
-  { "lunarvim/colorschemes" }
+lvim.colorscheme = "monokai-nightasty"
+lvim.builtin.which_key.mappings["C"] = {
+  name = "Python",
+  c = { "<cmd>lua require('swenv.api').pick_venv()<cr>", "Choose Env" },
 }
+
+vim.opt.background = "light"
+
+lvim.plugins = {
+  { "lunarvim/colorschemes" },
+  { "polirritmico/monokai-nightasty.nvim" },
+  { "AckslD/swenv.nvim" },
+}
+
