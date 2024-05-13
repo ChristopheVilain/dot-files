@@ -10,3 +10,5 @@
 	insteadOf = https://github.com/
 [pull]
 	rebase = false
+[core]
+	excludesFile = /Users/cvn/.config/.gitignore

@@ -54,6 +54,9 @@
 /rancher-postgres-volume/
 /work/
 
+# Maven
+/.m2
+
 # Unwanted from XDG
 /.config/gcloud
 /.config/htop
@@ -78,4 +81,9 @@
 # K9S - exclude cluster-specific
 !/.config/k9s/**/*.*
 /.config/k9s/clusters/**/*.*
+
+# Zed
+/.config/zed/**/*.*
+!/.config/zed/settings.json
+
 

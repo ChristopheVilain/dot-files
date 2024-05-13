@@ -84,8 +84,8 @@ if [[ -f ~/.bashrc ]]; then
   source ~/.bashrc
 fi
 
-# Decomment once not a dummy
-# [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
+# Tmux attach to existing session or start new 
+[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/cvn/google-cloud-sdk/path.bash.inc' ]; then . '/Users/cvn/google-cloud-sdk/path.bash.inc'; fi
