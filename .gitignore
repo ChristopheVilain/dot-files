@@ -54,6 +54,12 @@
 /rancher-postgres-volume/
 /work/
 
+# Personnal stuff
+/perso
+
+# Filezilla config
+/.config/filezilla
+
 # Maven
 /.m2
 
@@ -70,6 +76,8 @@
 /.config/lazygit/state.yml
 
 # Neovim
+/.config/nvim/plugged/
+/.config/nvim/site/autoload/
 !/.config/nvim/**/*.*
 
 # LunarVim
