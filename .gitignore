@@ -38,6 +38,7 @@
 /.vim/
 /.vscode/
 /.zsh_sessions/
+/.cargo/
 /Applications/
 /Desktop/
 /Documents/
@@ -85,6 +86,7 @@
 /.config/lvim/lazy-lock.json
 /.config/lvim/telescope_history
 /.config/lvim/mason/
+/.config/lunarvim/
 
 # K9S - exclude cluster-specific
 !/.config/k9s/**/*.*
