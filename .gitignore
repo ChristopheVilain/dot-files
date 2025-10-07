@@ -25,6 +25,7 @@
 /.kube/
 /.kuberlr/
 /.local/
+/.cursor/
 /.minikube/
 /.node-gyp/
 /.npm/
@@ -39,6 +40,11 @@
 /.vscode/
 /.zsh_sessions/
 /.cargo/
+/.continue/
+/.gsutil/
+/.cups/
+/.putty/
+/.gk/
 /Applications/
 /Desktop/
 /Documents/
@@ -54,6 +60,7 @@
 /nf525/
 /rancher-postgres-volume/
 /work/
+**/.DS_Store
 
 # Personnal stuff
 /perso
@@ -71,12 +78,16 @@
 /.config/configstore
 /.config/fish
 /.config/gtk-2.0
+/.config/cursor
+/.config/helm
+/.config/ngrok
 
 # Lazygit - exclude state file
 !/.config/lazygit/**/*.*
 /.config/lazygit/state.yml
 
 # Neovim
+/.config/nvim/telescope_history
 /.config/nvim/plugged/
 /.config/nvim/site/autoload/
 !/.config/nvim/**/*.*
