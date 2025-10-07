@@ -54,6 +54,11 @@ check_main_shell() {
   fi
 }
 
+haffenmayer() {
+  cat "${HOME}/haffenmayer.txt"
+  echo "Saved you one."
+}
+
 
 alias ll="ls -ltra"
 alias punk="sudo !!"
@@ -62,6 +67,7 @@ alias exit="check_main_shell"
 alias fexit="builtin exit"
 alias coolbash='/opt/homebrew/Cellar/bash/5.2.26/bin/bash'
 alias vi="nvim"
+alias yes="haffenmayer"
 
 # Taster IAM Terraform
 alias switch-accounts='. /Users/cvn/switch_accounts'
@@ -94,4 +100,3 @@ if [ -f '/Users/cvn/google-cloud-sdk/path.bash.inc' ]; then . '/Users/cvn/google
 if [ -f '/Users/cvn/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/cvn/google-cloud-sdk/completion.bash.inc'; fi
 
 focksmash
-
