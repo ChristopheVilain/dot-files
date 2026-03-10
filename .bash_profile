@@ -1,6 +1,3 @@
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-export PATH="/Users/cvn/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 PATH=/Users/cvn/.rd/bin:/Users/cvn/.local/bin:${PATH}
 
 # Source completion
@@ -100,3 +97,13 @@ if [ -f '/Users/cvn/google-cloud-sdk/path.bash.inc' ]; then . '/Users/cvn/google
 if [ -f '/Users/cvn/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/cvn/google-cloud-sdk/completion.bash.inc'; fi
 
 focksmash
+
+TOTO="yes"
+DUMMY_SECRET="j50s5cnIt3ZhulxlyL4SVHC5rLhebvYS"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/cvn/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+# uv
+export PATH="/Users/cvn/.config/../bin:$PATH"

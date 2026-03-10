@@ -14,7 +14,15 @@
 # Negative subdirs
 !*/
 
+# Mistral vibe
+/.vibe/logs
+/.vibe/plans
+/.vibe/.env
+/.vibe/vibehistory
+/.vibe/vibe.logs
+
 # MacOS $HOME mess
+/.idea/
 /.ansible/
 /.cache/
 /.cookiecutter_replay/
@@ -45,6 +53,7 @@
 /.cups/
 /.putty/
 /.gk/
+/bin
 /Applications/
 /Desktop/
 /Documents/
@@ -60,7 +69,7 @@
 /nf525/
 /rancher-postgres-volume/
 /work/
-**/.DS_Store
+**/*/.DS_Store
 
 # Personnal stuff
 /perso
