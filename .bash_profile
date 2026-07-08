@@ -59,7 +59,7 @@ haffenmayer() {
 
 alias ll="ls -ltra"
 alias punk="sudo !!"
-alias lg="/opt/homebrew/Cellar/lazygit/0.40.2/bin/lazygit"
+alias lg="lazygit"
 alias exit="check_main_shell"
 alias fexit="builtin exit"
 alias coolbash='/opt/homebrew/Cellar/bash/5.2.26/bin/bash'
